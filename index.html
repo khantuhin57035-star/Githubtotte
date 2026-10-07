@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Budge Budge Institution Of Tecnology</title>
+  <style>
+    body {
+      background-color: #f0f8ff; /* light blue */
+      font-family: Arial, sans-serif;
+      color: #333333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: navy;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      width: 100px;
+      height: auto;
+    }
+    nav a {
+      margin: 0 10px;
+      color: yellow;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .intro {
+      padding: 20px;
+    }
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+    table, th, td {
+      border: 2px solid #000;
+    }
+    th {
+      background-color: #87ceeb; /* skyblue */
+    }
+    td {
+      padding: 8px;
+    }
+    .lists {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+    }
+    .gallery img {
+      width: 150px;
+      height: 100px;
+      margin: 10px;
+      border: 2px solid #555;
+    }
+    form {
+      width: 50%;
+      margin: 20px auto;
+      padding: 20px;
+      border: 2px solid #333;
+      background-color: #fffacd; /* lemonchiffon */
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Our Class Information Page</h1>
+  <img src=".vscode/logo.webp" alt="College Logo" usemap="#collegemap">
+  <map name="collegemap">
+    <area shape="rect" coords="0,0,50,50" href="www.bbit.edu.in" alt="College Website">
+    <area shape="circle" coords="80,80,40" href="https://www.departmentpage.edu" alt="Department Page">
+  </map>
+  <nav>
+    <a href="www.bbit.edu.in">College Website</a>
+    <a href="https://www.departmentpage.edu">Department Page</a>
+  </nav>
+</header>
+
+<div class="intro">
+  <p>
+    We are proud students of the <b>cyber security department</b>.  
+    Our class consists of <i>talented and hardworking mates</i> who have taken various courses since 3nd year.  
+    Together, we share knowledge, <u>memories</u>, and experiences that shape our academic journey.
+  </p>
+</div>
+
+<h2 style="text-align:center;">Courses Taken (3nd Year onwards)</h2>
+<table>
+  <tr>
+    <th>3rd Year</th>
+    <th>Course Code</th>
+    <th>Course Name</th>
+  </tr>
+  <tr>
+    <td>3rd Year</td>
+    <td>PCCCS501</td>
+    <td>CYBER SECURITY</td>
+  </tr>
+  <tr>
+    <td>3rd Year</td>
+    <td>PCCCS502</td>
+    <td>CYBER LAW & CRIME </td>
+  </tr>
+  <tr>
+    <td>3rd Year</td>
+    <td>PCCCS503</td>
+    <td>OPERATING SYSTEMS</td>
+  </tr>
+  <tr>
+    <td>3rd Year</td>
+    <td>PCCCS504</td>
+    <td>DATABASE MANAGEMENT SYSTEMS</td>
+  </tr>
+  <tr>
+    <td>3rd Year</td>
+    <td>PCCCS505</td>
+    <td>INTRODUCTION TO INDUSTIAL MANAGEMENT</td>
+  </tr>
+</table>
+
+<div class="lists">
+  <div>
+    <h3>Subjects (Ordered List)</h3>
+    <ol>
+      <li>CYBER SECURITY</li>
+      <li>CYBER LAW & CRIME </li>
+      <li>OPERATING SYSTEMS</li>
+      <li>INTERNET TECHNOLOGY</li>
+      <li>INTRODUCTION TO INDUSTIAL MANAGEMENT</li>
+    </ol>
+  </div>
+  <div>
+    <h3>Faculty (Unordered List)</h3>
+    <ul>
+      <li>Prof.SHEFALIKA GHOSH SAMADDAR</li>
+      <li>Prof SUDIPTA MAITY SAHU</li>
+      <li>Dr. MUNSHI YUSUF ALAM</li>
+      <li>Prof. MADHURIMA HALDER</li>
+    </ul>
+  </div>
+</div>
+
+<h2 style="text-align:center;">Class Gallery</h2>
+<div class="gallery">
+  <img src="classmate1.jpg" alt="Classmate 1">
+  <img src="classmate2.jpg" alt="Classmate 2">
+  <img src="memory1.jpg" alt="Memory 1">
+  <img src="memory2.jpg" alt="Memory 2">
+</div>
+
+<h2 style="text-align:center;">Student Enquiry Form</h2>
+<form>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+
+  <label for="course">Select Course:</label><br>
+  <select id="course" name="course">
+    <option value="ds">Internet Technology</option>
+    <option value="os">Operating Systems</option>
+    <option value="dbms">Database Management Systems</option>
+    <option value="ai">Artificial Intelligence</option>
+  </select><br><br>
+
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form>
+
+<footer>
+  <p>&copy; 2026 Cyber Security Department, Your College</p>
+</footer>
+
+</body>
+</html>
